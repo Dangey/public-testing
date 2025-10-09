@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+    inputs:
+      input1:
+        type: string
+        default: "default val"
+
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'done'
