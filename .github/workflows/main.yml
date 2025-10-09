@@ -2,8 +2,12 @@ on:
   workflow_dispatch:
     inputs:
       input1:
-        type: string
-        default: "default val"
+        default: 'warning'
+        type: choice
+        options:
+          - info
+          - warning
+          - debug
         required: true
 
 jobs:
