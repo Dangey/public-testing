@@ -4,6 +4,7 @@ on:
       input1:
         type: string
         default: "default val"
+        required: true
 
 jobs:
   job-name:
