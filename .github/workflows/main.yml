@@ -2,7 +2,6 @@ on:
   workflow_dispatch:
     inputs:
       input1:
-        default: 'warning'
         type: choice
         options:
           - info
