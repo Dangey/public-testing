@@ -8,6 +8,8 @@ on:
           - warning
           - debug
         required: true
+        default: "info"
+
 
 jobs:
   job-name:
